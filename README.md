@@ -35,3 +35,8 @@
 
 6. ([Code 6](.//Code%206/)):
     -> Write and HTML page including any required JavaScript that takes a number from text field in the range of 0 to 999 and shows it in words. It should not accept four and above digits, alphabets and special characters.
+
+7. ([Code 7](.//Code%207/)):
+    -> Develop and demonstrate PHP Script for following problems:<br>
+	a) Write a PHP Script to find out the sum of individual digits.<br>
+	b) Write a PHP Script to check whether the given number is Palindrome or Not.
