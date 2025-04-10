@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CSS Styling</title>
+		<style>
+			body{
+				background-color: papayawhip;
+			}
+			
+			a:link{
+				text-decoration: none;
+				color: orange;
+			}
+
+			a:visited {
+				text-decoration: none;
+				color: steelblue;
+			}
+
+			a:hover {
+				text-decoration: underline;
+				color: coral;
+			}
+
+			a:active {
+				text-decoration: underline;
+				color:purple;
+			}
+
+			.c1{
+				cursor: crosshari;
+			}
+
+			.c2{
+				cursor: pointer;
+			}
+
+			.c3{
+				cursor: move;
+			}
+
+			.c4{
+				cursor: text;
+			}
+
+			.c5{
+				cursor: wait;
+			}
+
+			.c6{
+				cursor: help;
+			}
+
+		</style>
+		<link rel='stylesheet' href='style.css'>
+	</head>
+
+	<body>
+		<h1 style='color:blue; text-align:center;'>
+			CSS Styling(Inline, External, Internal)
+		</h1>
+		
+		<p>This paragraph is not styled</p>
+		<p class='left'>This paragraph is styled by class 'Left'</p>
+		<p class='center'>This paragraph is styled by class 'Center'</p>
+		<p class='right'>This paragraph is styled by class 'Right'</p>
+		<strong>This is a normal Bold design</strong>
+		<br>
+		<strong id='headline'>This Bold text is styled</strong>
+		<h2>
+			<strong>
+				<a href='#'>This is a link</a>
+			</strong>
+		</h2>
+		<h3 class='c1'>
+			The cursor over this element is a plus sign.
+		</h3>
+
+		<h3 class='c2'>
+			The cursor over this element is a pointy hand.
+		</h3>
+		<h3 class='c3'>
+			The cursor over this element is a grapsing hand.
+		</h3>
+		<h3 class='c4'>
+			The cursor over this element is a I bar.
+		</h3>
+		<h3 class='c5'>
+			The cursor over this element is a wait.
+		</h3>
+		<h3 class='c6'>
+			The cursor over this element is a question mark.
+		</h3>
+	</body>
+</html>

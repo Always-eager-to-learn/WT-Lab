@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Segoe Print';
+	font-weight: bold;
+	font-size: 1.6rem;
+	margin: 30px;
+	text-align: center;
+	background-color: papayawhip;
+}
+
+label{
+	font-size: 1.5rem;
+}
+
+.output{
+	color: green;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.error{
+	color: red;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+#numberInput{
+	width: 250px;
+	text-align: center;
+	height: 40px;
+	font-size: 1.3rem;
+}

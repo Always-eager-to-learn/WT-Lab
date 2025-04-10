@@ -1,0 +1,31 @@
+body{
+	text-align: center;
+}
+
+h1{
+	color: purple;
+	text-align: center;
+	font-family: 'Trebuchet MS';
+}
+
+span{
+	font-family: 'Segoe Print';
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.textbox1{
+	color: steelblue;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Comic Sans MS';
+}
+
+#box1{
+	font-size: 1.2rem;
+	text-align: center;
+	width: 300px;
+	font-family: 'Comic Sans MS';
+	cursor: pointer;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>Registration Form Validator </title>	
+    </head>
+    <body bgcolor="#E4FOF8">
+
+	<center>
+		<font color='blue' size='6' face='arial'>REGISTRATION FORM </font><br><br>
+		<font size="5">
+			<form onsubmit='return validateForm()' action='success.html'>
+
+				First Name: <font color='red'>*</font>&nbsp;&nbsp;
+				<input type='text' id='firstname' required size="26"><br><br>
+	
+				Last Name: <font color='red'>*</font>&nbsp;&nbsp;
+				<input type='text' id='lastname' required size="26"><br><br>
+	
+				Email Address: <font color='red'>*</font>
+				<input type='text' id='email' autocomplete="email" required> <br>
+				<font color='blue' size="4"> Format: name@domain.id </font> <br><br>
+	
+				Password: <font color='red'>*</font>
+				<input type='password' id='password' required><br>
+				<font size="4" color="papayawhite">Minimum 6 characters</font><br><br>
+	
+				Address: <font color='red'>*</font><br>
+				<textarea rows='4' cols='50' id='address' autocomplete="address-level2" required></textarea><br><br>
+	
+				Mobile Number :  <font color='red'>*</font>
+				<input type='text' id='mobileno' required><br><br>
+	
+				Gender: <font color='red'>*</font>
+				<font size="4">
+					<input type='radio' name='gender' required>MALE
+					<input type='radio' name='gender' required>FEMALE<br><br>
+				</font>
+			
+				<input type='Submit' value='SUBMIT'>&nbsp;&nbsp;&nbsp;
+				<input type='Reset' value='RESET' id="reset">
+	
+			</form>
+		</font>
+		
+	</center>
+
+        <script src="script.js"></script>
+    </body>
+</html>

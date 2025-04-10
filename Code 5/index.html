@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Selecting a Country</title>
+		<link rel='stylesheet' href='style.css'>
+	</head>
+	<body>
+		<h1>
+			Select the country name to find its capital.
+		</h1>
+		<form>
+			<span>Select Country:</span> 
+			<select name='country' id='box1' onClick='displayCapital()' required>
+				<option value=''>COUNTRY</option>
+				<option value='NEW DELHI'>INDIA</option>
+				<option value='TIRANA'>ALGERIA</option>
+				<option value='BEIJING'>CHINA</option>
+				<option value='TOKYO'>JAPAN</option>
+				<option value='MOSCOW'>RUSSIA</option>
+				<option value='BERLIN'>GERMANY</option>
+				<option value='HANOI'>VIETNAM</option>
+				<option value='MADRID'>SPAIN</option>
+			</select>
+			<br><br>
+			<span>Capital:</span>
+			<input type='text' class='textbox1' id='box2'>
+		</form>
+		<script src='script.js'></script>
+	</body>
+</html>

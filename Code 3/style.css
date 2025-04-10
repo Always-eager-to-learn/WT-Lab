@@ -1,0 +1,36 @@
+.left{
+	text-align: left;
+	color: blue;
+	font-family: Trebuchet MS;
+	font-size: large;
+	text-indent: 10px;
+}
+
+.center{
+	text-align: center;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	word-spacing: 10px;
+	font-size: larger;
+}
+
+.right{
+	text-align: right;
+	color: crimson;
+	font-family: 'Comic Sans MS';
+	font-size: 1.4rem;
+	text-decoration: overline;
+	font-style: italic;
+}
+
+#headline{
+	text-decoration: underline;
+	font-size: 1.3rem;
+	font-family: 'Segoe Print';
+	color: deeppink;
+}
+
+h3{
+	font-family: 'Kristen ITC';
+}
