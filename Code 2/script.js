@@ -30,8 +30,9 @@ function validateForm(){
 
 function isAlphabetCorrect(name){
 	let alphabetExp = /^[a-zA-Z]+$/;
-	
-	if(name.value.match(alphabetExp))
+	let value = name.value;
+
+	if (alphabetExp.test(value))
 		return true;
 
 	else{
@@ -45,8 +46,8 @@ function emailValidate(email){
 	let index = value.indexOf('@');
 	let substring = value.substring(index + 1, value.length);
 
-	if(index >= 2){
-		let regularExpression = '[A-Za-z0-9-]+(\\.[a-z0-9]{2,})+';
+	if(index >= 1){
+		let regularExpression = new RegExp('[A-Za-z0-9-]+(\\.[a-z0-9]{2,})+');
 		if(substring.match(regularExpression)){
 			return true;
 		}
@@ -54,7 +55,10 @@ function emailValidate(email){
 			window.alert(`Please ensure that email is in the correct format.\n`);
 			return false;
 		}
-	}	
+	}
+	else{
+		window.alert('Please ensure that email fromat is correct.')
+	}
 }
 
 function lengthPhoneNumber(phoneNumber){
@@ -66,7 +70,7 @@ function lengthPhoneNumber(phoneNumber){
 }
 
 function phoneNumberNotNumbers(phoneNumber){
-	let numberExpression = /^[0-9]+$/;
+	let numberExpression = new RegExp('[0-9]+');
 	if(!phoneNumber.value.match(numberExpression)){
 		window.alert(`Please ensure that the Phone Number contains only numeric characters.`);
 		return false;
